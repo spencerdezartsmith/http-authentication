@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 80px;
+  margin: 8px;
+}
