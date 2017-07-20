@@ -4,6 +4,9 @@ block content
   .container
     if email
       h2.welcome-header Hello, #{email}
+      if message
+        .alert.alert-success
+          p #{message}
       .btn-container
         form(action='/logout' method='post')
           input.btn.btn-primary(type='submit' value='Logout')          
