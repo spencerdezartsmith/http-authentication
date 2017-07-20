@@ -20,3 +20,8 @@ h2 {
   width: 80px;
   margin: 8px;
 }
+
+.alert.alert-success {
+  display: flex;
+  justify-content: center;
+}
