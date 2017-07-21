@@ -61,6 +61,9 @@ Usage:
 - Create a .env file in the root directory of your project. Add environment-specific variables on new lines in the form of NAME=VALUE. 
 ``` 
 DATABASE_URL=<your postgres url>
-    TEST_DATABASE=<your postgres test url>
-    SECRET=<any string> 
+TEST_DATABASE=<your postgres test url>
+SECRET=<any string> 
 ```
+- run `npm start`
+- navigate to `http://localhost:3000`
+- Sign up and enjoy all the non existent services this site has to offer :)
