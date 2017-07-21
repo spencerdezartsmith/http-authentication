@@ -59,6 +59,8 @@ Usage:
 - run `npm install`
 - run `npm run db:setup`
 - Create a .env file in the root directory of your project. Add environment-specific variables on new lines in the form of NAME=VALUE. 
-``` DATABASE_URL=<your postgres url>
+``` 
+DATABASE_URL=<your postgres url>
     TEST_DATABASE=<your postgres test url>
-    SECRET=<any string> ```
+    SECRET=<any string> 
+```
