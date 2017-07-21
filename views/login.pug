@@ -15,7 +15,7 @@ block content
     form(method='post', action='/login')
       .form-group
         label Email
-        input.form-control(name='email', type='text', placeholder='Enter Email')
+        input.form-control(name='email', type='text', value=`${email}` placeholder='Enter Email')
       .form-group
         label Password
         input.form-control(name='password', type='password', placeholder='Enter Password')
