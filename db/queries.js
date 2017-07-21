@@ -1,10 +1,5 @@
 const bcrypt = require('bcrypt')
-const promise = require('bluebird')
-const options = { promiseLib: promise }
-
-const pgp = require('pg-promise')(options)
-const connection = 'postgres://localhost:5432/users'
-const db = pgp(connection)
+const db = require('./connection')
 
 const createNewUser = (data) => {
   const sql = 'INSERT INTO users(email, password) VALUES($1, $2) RETURNING email'

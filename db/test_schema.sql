@@ -1,7 +1,7 @@
-\c users;
+\c users_test;
 
 CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
+  id SERIAL PRIMARY KEY NOT NULL,
   email VARCHAR(255) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL
 );
