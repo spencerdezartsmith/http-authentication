@@ -67,3 +67,6 @@ SECRET=<any string>
 - run `npm start`
 - navigate to `http://localhost:3000`
 - Sign up and enjoy all the non existent services this site has to offer :)
+
+To run tests:
+- run `npm run test`
