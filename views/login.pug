@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .container
+    h2.page-header Login
+    if message 
+      .alert.alert-danger
+        ul
+          li #{message}
+    if errors
+      .alert.alert-danger
+        ul
+          each error in errors
+            li #{error.msg}    
+    form(method='post', action='/login')
+      .form-group
+        label Email
+        input.form-control(name='email', type='text', placeholder='Enter Email')
+      .form-group
+        label Password
+        input.form-control(name='password', type='password', placeholder='Enter Password')
+      input.btn.btn-primary(type='submit' value='Login')
+  
